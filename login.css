@@ -1,0 +1,23 @@
+*{padding: 0; margin: 0;}
+
+#wrapper{text-align: center;
+position: center}
+#header{  width: 100%;
+ height: 75px; 
+ background-color: #f7755e;
+ float: middle; }
+
+
+#content{
+	width: 100%;
+	height: 200px;
+	background-color: #f0d767;
+ float: center;  }
+
+ #sign{
+
+ 	
+	background-color: #0cdff2;
+ float: center;  }
+
+ }
