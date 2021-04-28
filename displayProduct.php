@@ -50,6 +50,14 @@
                                             
 	                                        echo "<b>Price (BDT):</b> <span style='color:red'><b> " . $row['Price']. "</b></span>";
 	                                        echo "<br>";
+
+                                            ?>
+                                        <input type="text" name="quantity" value="1">
+                    <input type="hidden" name="hidden_Type" value=" <?php echo $row["Type"]; ?>">
+                    <input type="hidden" name="hidden_Price" value=" <?php echo $row["Price"]; ?>">
+                    <button type="sunmit" name="add_to_cart" onclick="Cart()"><b>Add to Cart</b></button>
+                
+                    <?php
 	                                       
 	                                    echo "</div>";
 
